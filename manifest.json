@@ -1,0 +1,25 @@
+{
+    "name": "Color Palette",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Draggable Material Color Palette",
+    "author": "Juraj Marcin",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Toggle Material Color Palette"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ],
+    "web_accessible_resources": [
+        "template.html",
+        "menuTemplate.html"
+    ]
+}
